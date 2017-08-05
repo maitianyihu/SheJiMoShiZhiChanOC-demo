@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504188E41F34103F008F6532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188E31F34103F008F6532 /* main.m */; };
+		504188E71F34103F008F6532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188E61F34103F008F6532 /* AppDelegate.m */; };
+		504188EA1F34103F008F6532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188E91F34103F008F6532 /* ViewController.m */; };
+		504188ED1F34103F008F6532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504188EB1F34103F008F6532 /* Main.storyboard */; };
+		504188EF1F34103F008F6532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504188EE1F34103F008F6532 /* Assets.xcassets */; };
+		504188F21F34103F008F6532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504188F01F34103F008F6532 /* LaunchScreen.storyboard */; };
+		504188FD1F34103F008F6532 /* ___________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188FC1F34103F008F6532 /* ___________________Tests.m */; };
+		504189081F34103F008F6532 /* ___________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504189071F34103F008F6532 /* ___________________UITests.m */; };
+		504189181F341175008F6532 /* BlackHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 504189171F341175008F6532 /* BlackHuman.m */; };
+		5041891B1F341184008F6532 /* YellowHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 5041891A1F341184008F6532 /* YellowHuman.m */; };
+		5041891E1F341192008F6532 /* WihteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 5041891D1F341192008F6532 /* WihteHuman.m */; };
+		504189211F34132A008F6532 /* AbstractHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 504189201F34132A008F6532 /* AbstractHumanFactory.m */; };
+		504189271F3419A5008F6532 /* HumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 504189261F3419A5008F6532 /* HumanFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504188F91F34103F008F6532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504188D71F34103F008F6532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504188DE1F34103F008F6532;
+			remoteInfo = "设计模式之禅-工厂方法模式（女娲造人）";
+		};
+		504189041F34103F008F6532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504188D71F34103F008F6532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504188DE1F34103F008F6532;
+			remoteInfo = "设计模式之禅-工厂方法模式（女娲造人）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504188DF1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式之禅-工厂方法模式（女娲造人）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504188E31F34103F008F6532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		504188E51F34103F008F6532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		504188E61F34103F008F6532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		504188E81F34103F008F6532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		504188E91F34103F008F6532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		504188EC1F34103F008F6532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504188EE1F34103F008F6532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504188F11F34103F008F6532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504188F31F34103F008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504188F81F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅-工厂方法模式（女娲造人）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504188FC1F34103F008F6532 /* ___________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________________Tests.m"; sourceTree = "<group>"; };
+		504188FE1F34103F008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504189031F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅-工厂方法模式（女娲造人）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504189071F34103F008F6532 /* ___________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________________UITests.m"; sourceTree = "<group>"; };
+		504189091F34103F008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504189151F3410C6008F6532 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		504189161F341175008F6532 /* BlackHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHuman.h; sourceTree = "<group>"; };
+		504189171F341175008F6532 /* BlackHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHuman.m; sourceTree = "<group>"; };
+		504189191F341184008F6532 /* YellowHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowHuman.h; sourceTree = "<group>"; };
+		5041891A1F341184008F6532 /* YellowHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowHuman.m; sourceTree = "<group>"; };
+		5041891C1F341192008F6532 /* WihteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WihteHuman.h; sourceTree = "<group>"; };
+		5041891D1F341192008F6532 /* WihteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WihteHuman.m; sourceTree = "<group>"; };
+		5041891F1F34132A008F6532 /* AbstractHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHumanFactory.h; sourceTree = "<group>"; };
+		504189201F34132A008F6532 /* AbstractHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHumanFactory.m; sourceTree = "<group>"; };
+		504189251F3419A5008F6532 /* HumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanFactory.h; sourceTree = "<group>"; };
+		504189261F3419A5008F6532 /* HumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504188DC1F34103F008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188F51F34103F008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504189001F34103F008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504188D61F34103F008F6532 = {
+			isa = PBXGroup;
+			children = (
+				504188E11F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */,
+				504188FB1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests */,
+				504189061F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests */,
+				504188E01F34103F008F6532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504188E01F34103F008F6532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504188DF1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）.app */,
+				504188F81F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests.xctest */,
+				504189031F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504188E11F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */ = {
+			isa = PBXGroup;
+			children = (
+				504188E51F34103F008F6532 /* AppDelegate.h */,
+				504188E61F34103F008F6532 /* AppDelegate.m */,
+				504188E81F34103F008F6532 /* ViewController.h */,
+				504188E91F34103F008F6532 /* ViewController.m */,
+				5041891F1F34132A008F6532 /* AbstractHumanFactory.h */,
+				504189201F34132A008F6532 /* AbstractHumanFactory.m */,
+				504189251F3419A5008F6532 /* HumanFactory.h */,
+				504189261F3419A5008F6532 /* HumanFactory.m */,
+				504189151F3410C6008F6532 /* Human.h */,
+				504189161F341175008F6532 /* BlackHuman.h */,
+				504189171F341175008F6532 /* BlackHuman.m */,
+				504189191F341184008F6532 /* YellowHuman.h */,
+				5041891A1F341184008F6532 /* YellowHuman.m */,
+				5041891C1F341192008F6532 /* WihteHuman.h */,
+				5041891D1F341192008F6532 /* WihteHuman.m */,
+				504188EB1F34103F008F6532 /* Main.storyboard */,
+				504188EE1F34103F008F6532 /* Assets.xcassets */,
+				504188F01F34103F008F6532 /* LaunchScreen.storyboard */,
+				504188F31F34103F008F6532 /* Info.plist */,
+				504188E21F34103F008F6532 /* Supporting Files */,
+			);
+			path = "设计模式之禅-工厂方法模式（女娲造人）";
+			sourceTree = "<group>";
+		};
+		504188E21F34103F008F6532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504188E31F34103F008F6532 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504188FB1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				504188FC1F34103F008F6532 /* ___________________Tests.m */,
+				504188FE1F34103F008F6532 /* Info.plist */,
+			);
+			path = "设计模式之禅-工厂方法模式（女娲造人）Tests";
+			sourceTree = "<group>";
+		};
+		504189061F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				504189071F34103F008F6532 /* ___________________UITests.m */,
+				504189091F34103F008F6532 /* Info.plist */,
+			);
+			path = "设计模式之禅-工厂方法模式（女娲造人）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504188DE1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5041890C1F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）" */;
+			buildPhases = (
+				504188DB1F34103F008F6532 /* Sources */,
+				504188DC1F34103F008F6532 /* Frameworks */,
+				504188DD1F34103F008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式之禅-工厂方法模式（女娲造人）";
+			productName = "设计模式之禅-工厂方法模式（女娲造人）";
+			productReference = 504188DF1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504188F71F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5041890F1F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）Tests" */;
+			buildPhases = (
+				504188F41F34103F008F6532 /* Sources */,
+				504188F51F34103F008F6532 /* Frameworks */,
+				504188F61F34103F008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504188FA1F34103F008F6532 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅-工厂方法模式（女娲造人）Tests";
+			productName = "设计模式之禅-工厂方法模式（女娲造人）Tests";
+			productReference = 504188F81F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504189021F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504189121F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）UITests" */;
+			buildPhases = (
+				504188FF1F34103F008F6532 /* Sources */,
+				504189001F34103F008F6532 /* Frameworks */,
+				504189011F34103F008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504189051F34103F008F6532 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅-工厂方法模式（女娲造人）UITests";
+			productName = "设计模式之禅-工厂方法模式（女娲造人）UITests";
+			productReference = 504189031F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504188D71F34103F008F6532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王帅宇";
+				TargetAttributes = {
+					504188DE1F34103F008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+					};
+					504188F71F34103F008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 504188DE1F34103F008F6532;
+					};
+					504189021F34103F008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 504188DE1F34103F008F6532;
+					};
+				};
+			};
+			buildConfigurationList = 504188DA1F34103F008F6532 /* Build configuration list for PBXProject "设计模式之禅-工厂方法模式（女娲造人）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504188D61F34103F008F6532;
+			productRefGroup = 504188E01F34103F008F6532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504188DE1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */,
+				504188F71F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）Tests */,
+				504189021F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504188DD1F34103F008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188F21F34103F008F6532 /* LaunchScreen.storyboard in Resources */,
+				504188EF1F34103F008F6532 /* Assets.xcassets in Resources */,
+				504188ED1F34103F008F6532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188F61F34103F008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504189011F34103F008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504188DB1F34103F008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504189211F34132A008F6532 /* AbstractHumanFactory.m in Sources */,
+				5041891B1F341184008F6532 /* YellowHuman.m in Sources */,
+				504189271F3419A5008F6532 /* HumanFactory.m in Sources */,
+				504188EA1F34103F008F6532 /* ViewController.m in Sources */,
+				504189181F341175008F6532 /* BlackHuman.m in Sources */,
+				5041891E1F341192008F6532 /* WihteHuman.m in Sources */,
+				504188E71F34103F008F6532 /* AppDelegate.m in Sources */,
+				504188E41F34103F008F6532 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188F41F34103F008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188FD1F34103F008F6532 /* ___________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188FF1F34103F008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504189081F34103F008F6532 /* ___________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504188FA1F34103F008F6532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504188DE1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */;
+			targetProxy = 504188F91F34103F008F6532 /* PBXContainerItemProxy */;
+		};
+		504189051F34103F008F6532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504188DE1F34103F008F6532 /* 设计模式之禅-工厂方法模式（女娲造人） */;
+			targetProxy = 504189041F34103F008F6532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		504188EB1F34103F008F6532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504188EC1F34103F008F6532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504188F01F34103F008F6532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504188F11F34103F008F6532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5041890A1F34103F008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5041890B1F34103F008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5041890D1F34103F008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5041890E1F34103F008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		504189101F34103F008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅-工厂方法模式（女娲造人）.app/设计模式之禅-工厂方法模式（女娲造人）";
+			};
+			name = Debug;
+		};
+		504189111F34103F008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅-工厂方法模式（女娲造人）.app/设计模式之禅-工厂方法模式（女娲造人）";
+			};
+			name = Release;
+		};
+		504189131F34103F008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅-工厂方法模式（女娲造人）";
+			};
+			name = Debug;
+		};
+		504189141F34103F008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-工厂方法模式（女娲造人）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅-工厂方法模式（女娲造人）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504188DA1F34103F008F6532 /* Build configuration list for PBXProject "设计模式之禅-工厂方法模式（女娲造人）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5041890A1F34103F008F6532 /* Debug */,
+				5041890B1F34103F008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5041890C1F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5041890D1F34103F008F6532 /* Debug */,
+				5041890E1F34103F008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5041890F1F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504189101F34103F008F6532 /* Debug */,
+				504189111F34103F008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		504189121F34103F008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-工厂方法模式（女娲造人）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504189131F34103F008F6532 /* Debug */,
+				504189141F34103F008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504188D71F34103F008F6532 /* Project object */;
+}
