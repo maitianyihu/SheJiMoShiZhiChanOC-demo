@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5041889B1F31FD04008F6532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5041889A1F31FD04008F6532 /* main.m */; };
+		5041889E1F31FD04008F6532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5041889D1F31FD04008F6532 /* AppDelegate.m */; };
+		504188A11F31FD04008F6532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188A01F31FD04008F6532 /* ViewController.m */; };
+		504188A41F31FD04008F6532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504188A21F31FD04008F6532 /* Main.storyboard */; };
+		504188A61F31FD04008F6532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504188A51F31FD04008F6532 /* Assets.xcassets */; };
+		504188A91F31FD04008F6532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504188A71F31FD04008F6532 /* LaunchScreen.storyboard */; };
+		504188B41F31FD04008F6532 /* _______________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188B31F31FD04008F6532 /* _______________Tests.m */; };
+		504188BF1F31FD04008F6532 /* _______________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188BE1F31FD04008F6532 /* _______________UITests.m */; };
+		504188CF1F31FFD2008F6532 /* NovelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188CE1F31FFD2008F6532 /* NovelBook.m */; };
+		504188D21F32BA9B008F6532 /* BookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188D11F32BA9B008F6532 /* BookStore.m */; };
+		504188D51F331FD8008F6532 /* OffNovelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 504188D41F331FD8008F6532 /* OffNovelBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504188B01F31FD04008F6532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5041888E1F31FD03008F6532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504188951F31FD04008F6532;
+			remoteInfo = "设计模式之禅-开闭原则（书店）";
+		};
+		504188BB1F31FD04008F6532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5041888E1F31FD03008F6532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504188951F31FD04008F6532;
+			remoteInfo = "设计模式之禅-开闭原则（书店）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504188961F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式之禅-开闭原则（书店）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5041889A1F31FD04008F6532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5041889C1F31FD04008F6532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5041889D1F31FD04008F6532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5041889F1F31FD04008F6532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		504188A01F31FD04008F6532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		504188A31F31FD04008F6532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504188A51F31FD04008F6532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504188A81F31FD04008F6532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504188AA1F31FD04008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504188AF1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅-开闭原则（书店）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504188B31F31FD04008F6532 /* _______________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______________Tests.m"; sourceTree = "<group>"; };
+		504188B51F31FD04008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504188BA1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅-开闭原则（书店）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504188BE1F31FD04008F6532 /* _______________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______________UITests.m"; sourceTree = "<group>"; };
+		504188C01F31FD04008F6532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504188CC1F31FF03008F6532 /* IBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBook.h; sourceTree = "<group>"; };
+		504188CD1F31FFD2008F6532 /* NovelBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelBook.h; sourceTree = "<group>"; };
+		504188CE1F31FFD2008F6532 /* NovelBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelBook.m; sourceTree = "<group>"; };
+		504188D01F32BA9B008F6532 /* BookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStore.h; sourceTree = "<group>"; };
+		504188D11F32BA9B008F6532 /* BookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStore.m; sourceTree = "<group>"; };
+		504188D31F331FD8008F6532 /* OffNovelBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffNovelBook.h; sourceTree = "<group>"; };
+		504188D41F331FD8008F6532 /* OffNovelBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffNovelBook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504188931F31FD04008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188AC1F31FD04008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188B71F31FD04008F6532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5041888D1F31FD03008F6532 = {
+			isa = PBXGroup;
+			children = (
+				504188981F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */,
+				504188B21F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests */,
+				504188BD1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests */,
+				504188971F31FD04008F6532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504188971F31FD04008F6532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504188961F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）.app */,
+				504188AF1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests.xctest */,
+				504188BA1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504188981F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */ = {
+			isa = PBXGroup;
+			children = (
+				5041889C1F31FD04008F6532 /* AppDelegate.h */,
+				5041889D1F31FD04008F6532 /* AppDelegate.m */,
+				5041889F1F31FD04008F6532 /* ViewController.h */,
+				504188A01F31FD04008F6532 /* ViewController.m */,
+				504188D31F331FD8008F6532 /* OffNovelBook.h */,
+				504188D41F331FD8008F6532 /* OffNovelBook.m */,
+				504188D01F32BA9B008F6532 /* BookStore.h */,
+				504188D11F32BA9B008F6532 /* BookStore.m */,
+				504188CD1F31FFD2008F6532 /* NovelBook.h */,
+				504188CE1F31FFD2008F6532 /* NovelBook.m */,
+				504188CC1F31FF03008F6532 /* IBook.h */,
+				504188A21F31FD04008F6532 /* Main.storyboard */,
+				504188A51F31FD04008F6532 /* Assets.xcassets */,
+				504188A71F31FD04008F6532 /* LaunchScreen.storyboard */,
+				504188AA1F31FD04008F6532 /* Info.plist */,
+				504188991F31FD04008F6532 /* Supporting Files */,
+			);
+			path = "设计模式之禅-开闭原则（书店）";
+			sourceTree = "<group>";
+		};
+		504188991F31FD04008F6532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5041889A1F31FD04008F6532 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504188B21F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				504188B31F31FD04008F6532 /* _______________Tests.m */,
+				504188B51F31FD04008F6532 /* Info.plist */,
+			);
+			path = "设计模式之禅-开闭原则（书店）Tests";
+			sourceTree = "<group>";
+		};
+		504188BD1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				504188BE1F31FD04008F6532 /* _______________UITests.m */,
+				504188C01F31FD04008F6532 /* Info.plist */,
+			);
+			path = "设计模式之禅-开闭原则（书店）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504188951F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504188C31F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）" */;
+			buildPhases = (
+				504188921F31FD04008F6532 /* Sources */,
+				504188931F31FD04008F6532 /* Frameworks */,
+				504188941F31FD04008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式之禅-开闭原则（书店）";
+			productName = "设计模式之禅-开闭原则（书店）";
+			productReference = 504188961F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504188AE1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504188C61F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）Tests" */;
+			buildPhases = (
+				504188AB1F31FD04008F6532 /* Sources */,
+				504188AC1F31FD04008F6532 /* Frameworks */,
+				504188AD1F31FD04008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504188B11F31FD04008F6532 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅-开闭原则（书店）Tests";
+			productName = "设计模式之禅-开闭原则（书店）Tests";
+			productReference = 504188AF1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504188B91F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504188C91F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）UITests" */;
+			buildPhases = (
+				504188B61F31FD04008F6532 /* Sources */,
+				504188B71F31FD04008F6532 /* Frameworks */,
+				504188B81F31FD04008F6532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504188BC1F31FD04008F6532 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅-开闭原则（书店）UITests";
+			productName = "设计模式之禅-开闭原则（书店）UITests";
+			productReference = 504188BA1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5041888E1F31FD03008F6532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王帅宇";
+				TargetAttributes = {
+					504188951F31FD04008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+					};
+					504188AE1F31FD04008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 504188951F31FD04008F6532;
+					};
+					504188B91F31FD04008F6532 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 504188951F31FD04008F6532;
+					};
+				};
+			};
+			buildConfigurationList = 504188911F31FD03008F6532 /* Build configuration list for PBXProject "设计模式之禅-开闭原则（书店）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5041888D1F31FD03008F6532;
+			productRefGroup = 504188971F31FD04008F6532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504188951F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */,
+				504188AE1F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）Tests */,
+				504188B91F31FD04008F6532 /* 设计模式之禅-开闭原则（书店）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504188941F31FD04008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188A91F31FD04008F6532 /* LaunchScreen.storyboard in Resources */,
+				504188A61F31FD04008F6532 /* Assets.xcassets in Resources */,
+				504188A41F31FD04008F6532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188AD1F31FD04008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188B81F31FD04008F6532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504188921F31FD04008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188A11F31FD04008F6532 /* ViewController.m in Sources */,
+				504188CF1F31FFD2008F6532 /* NovelBook.m in Sources */,
+				504188D21F32BA9B008F6532 /* BookStore.m in Sources */,
+				5041889E1F31FD04008F6532 /* AppDelegate.m in Sources */,
+				5041889B1F31FD04008F6532 /* main.m in Sources */,
+				504188D51F331FD8008F6532 /* OffNovelBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188AB1F31FD04008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188B41F31FD04008F6532 /* _______________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504188B61F31FD04008F6532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504188BF1F31FD04008F6532 /* _______________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504188B11F31FD04008F6532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504188951F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */;
+			targetProxy = 504188B01F31FD04008F6532 /* PBXContainerItemProxy */;
+		};
+		504188BC1F31FD04008F6532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504188951F31FD04008F6532 /* 设计模式之禅-开闭原则（书店） */;
+			targetProxy = 504188BB1F31FD04008F6532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		504188A21F31FD04008F6532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504188A31F31FD04008F6532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504188A71F31FD04008F6532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504188A81F31FD04008F6532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504188C11F31FD04008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		504188C21F31FD04008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504188C41F31FD04008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504188C51F31FD04008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		504188C71F31FD04008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅-开闭原则（书店）.app/设计模式之禅-开闭原则（书店）";
+			};
+			name = Debug;
+		};
+		504188C81F31FD04008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅-开闭原则（书店）.app/设计模式之禅-开闭原则（书店）";
+			};
+			name = Release;
+		};
+		504188CA1F31FD04008F6532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅-开闭原则（书店）";
+			};
+			name = Debug;
+		};
+		504188CB1F31FD04008F6532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅-开闭原则（书店）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.---------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅-开闭原则（书店）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504188911F31FD03008F6532 /* Build configuration list for PBXProject "设计模式之禅-开闭原则（书店）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504188C11F31FD04008F6532 /* Debug */,
+				504188C21F31FD04008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504188C31F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504188C41F31FD04008F6532 /* Debug */,
+				504188C51F31FD04008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		504188C61F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504188C71F31FD04008F6532 /* Debug */,
+				504188C81F31FD04008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		504188C91F31FD04008F6532 /* Build configuration list for PBXNativeTarget "设计模式之禅-开闭原则（书店）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504188CA1F31FD04008F6532 /* Debug */,
+				504188CB1F31FD04008F6532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5041888E1F31FD03008F6532 /* Project object */;
+}
