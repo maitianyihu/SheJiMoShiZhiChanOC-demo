@@ -23,7 +23,7 @@
     
     AdvTemplate *advTemplate = [[AdvTemplate alloc]init];
     Mail *mail = [[Mail alloc]initWithAdvTemplate:advTemplate];
-    mail.tail = @"招商银行版权所有";
+    mail.contxt = @"招商银行版权所有";/*!< <#注释#>*/
 
     while (i<MAX_COUNT) {
         //以下是每封邮件不同的地方

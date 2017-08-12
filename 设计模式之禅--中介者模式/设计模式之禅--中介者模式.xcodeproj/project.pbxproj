@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50424D211F3E8B9300221254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D201F3E8B9300221254 /* main.m */; };
+		50424D241F3E8B9300221254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D231F3E8B9300221254 /* AppDelegate.m */; };
+		50424D271F3E8B9300221254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D261F3E8B9300221254 /* ViewController.m */; };
+		50424D2A1F3E8B9300221254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50424D281F3E8B9300221254 /* Main.storyboard */; };
+		50424D2C1F3E8B9300221254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50424D2B1F3E8B9300221254 /* Assets.xcassets */; };
+		50424D2F1F3E8B9300221254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50424D2D1F3E8B9300221254 /* LaunchScreen.storyboard */; };
+		50424D3A1F3E8B9300221254 /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D391F3E8B9300221254 /* _____________Tests.m */; };
+		50424D451F3E8B9300221254 /* _____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D441F3E8B9300221254 /* _____________UITests.m */; };
+		50424D5D1F3EAC1600221254 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D5C1F3EAC1500221254 /* AbstractMediator.m */; };
+		50424D671F3EC63900221254 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D661F3EC63900221254 /* AbstractColleague.m */; };
+		50424D6A1F3ECE2200221254 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D691F3ECE2200221254 /* Stock.m */; };
+		50424D6D1F3ECE5700221254 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D6C1F3ECE5700221254 /* Sale.m */; };
+		50424D731F3ECEDB00221254 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D721F3ECEDB00221254 /* Mediator.m */; };
+		50424D761F3ECEE900221254 /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 50424D751F3ECEE900221254 /* Purchase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50424D361F3E8B9300221254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50424D141F3E8B9300221254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50424D1B1F3E8B9300221254;
+			remoteInfo = "设计模式之禅--中介者模式";
+		};
+		50424D411F3E8B9300221254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50424D141F3E8B9300221254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50424D1B1F3E8B9300221254;
+			remoteInfo = "设计模式之禅--中介者模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50424D1C1F3E8B9300221254 /* 设计模式之禅--中介者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式之禅--中介者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50424D201F3E8B9300221254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50424D221F3E8B9300221254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50424D231F3E8B9300221254 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50424D251F3E8B9300221254 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50424D261F3E8B9300221254 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50424D291F3E8B9300221254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50424D2B1F3E8B9300221254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50424D2E1F3E8B9300221254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50424D301F3E8B9300221254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50424D351F3E8B9300221254 /* 设计模式之禅--中介者模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅--中介者模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50424D391F3E8B9300221254 /* _____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________Tests.m"; sourceTree = "<group>"; };
+		50424D3B1F3E8B9300221254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50424D401F3E8B9300221254 /* 设计模式之禅--中介者模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设计模式之禅--中介者模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50424D441F3E8B9300221254 /* _____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________UITests.m"; sourceTree = "<group>"; };
+		50424D461F3E8B9300221254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50424D5B1F3EAC1500221254 /* AbstractMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
+		50424D5C1F3EAC1500221254 /* AbstractMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
+		50424D651F3EC63900221254 /* AbstractColleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
+		50424D661F3EC63900221254 /* AbstractColleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
+		50424D681F3ECE2200221254 /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		50424D691F3ECE2200221254 /* Stock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		50424D6B1F3ECE5700221254 /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		50424D6C1F3ECE5700221254 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
+		50424D711F3ECEDB00221254 /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		50424D721F3ECEDB00221254 /* Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		50424D741F3ECEE900221254 /* Purchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Purchase.h; sourceTree = "<group>"; };
+		50424D751F3ECEE900221254 /* Purchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50424D191F3E8B9300221254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D321F3E8B9300221254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D3D1F3E8B9300221254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50424D131F3E8B9300221254 = {
+			isa = PBXGroup;
+			children = (
+				50424D1E1F3E8B9300221254 /* 设计模式之禅--中介者模式 */,
+				50424D381F3E8B9300221254 /* 设计模式之禅--中介者模式Tests */,
+				50424D431F3E8B9300221254 /* 设计模式之禅--中介者模式UITests */,
+				50424D1D1F3E8B9300221254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50424D1D1F3E8B9300221254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50424D1C1F3E8B9300221254 /* 设计模式之禅--中介者模式.app */,
+				50424D351F3E8B9300221254 /* 设计模式之禅--中介者模式Tests.xctest */,
+				50424D401F3E8B9300221254 /* 设计模式之禅--中介者模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50424D1E1F3E8B9300221254 /* 设计模式之禅--中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				50424D221F3E8B9300221254 /* AppDelegate.h */,
+				50424D231F3E8B9300221254 /* AppDelegate.m */,
+				50424D251F3E8B9300221254 /* ViewController.h */,
+				50424D261F3E8B9300221254 /* ViewController.m */,
+				50424D5B1F3EAC1500221254 /* AbstractMediator.h */,
+				50424D5C1F3EAC1500221254 /* AbstractMediator.m */,
+				50424D711F3ECEDB00221254 /* Mediator.h */,
+				50424D721F3ECEDB00221254 /* Mediator.m */,
+				50424D641F3EC62100221254 /* 抽象同事类 */,
+				50424D281F3E8B9300221254 /* Main.storyboard */,
+				50424D2B1F3E8B9300221254 /* Assets.xcassets */,
+				50424D2D1F3E8B9300221254 /* LaunchScreen.storyboard */,
+				50424D301F3E8B9300221254 /* Info.plist */,
+				50424D1F1F3E8B9300221254 /* Supporting Files */,
+			);
+			path = "设计模式之禅--中介者模式";
+			sourceTree = "<group>";
+		};
+		50424D1F1F3E8B9300221254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50424D201F3E8B9300221254 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50424D381F3E8B9300221254 /* 设计模式之禅--中介者模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50424D391F3E8B9300221254 /* _____________Tests.m */,
+				50424D3B1F3E8B9300221254 /* Info.plist */,
+			);
+			path = "设计模式之禅--中介者模式Tests";
+			sourceTree = "<group>";
+		};
+		50424D431F3E8B9300221254 /* 设计模式之禅--中介者模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				50424D441F3E8B9300221254 /* _____________UITests.m */,
+				50424D461F3E8B9300221254 /* Info.plist */,
+			);
+			path = "设计模式之禅--中介者模式UITests";
+			sourceTree = "<group>";
+		};
+		50424D641F3EC62100221254 /* 抽象同事类 */ = {
+			isa = PBXGroup;
+			children = (
+				50424D651F3EC63900221254 /* AbstractColleague.h */,
+				50424D661F3EC63900221254 /* AbstractColleague.m */,
+				50424D681F3ECE2200221254 /* Stock.h */,
+				50424D691F3ECE2200221254 /* Stock.m */,
+				50424D6B1F3ECE5700221254 /* Sale.h */,
+				50424D6C1F3ECE5700221254 /* Sale.m */,
+				50424D741F3ECEE900221254 /* Purchase.h */,
+				50424D751F3ECEE900221254 /* Purchase.m */,
+			);
+			path = "抽象同事类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50424D1B1F3E8B9300221254 /* 设计模式之禅--中介者模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50424D491F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式" */;
+			buildPhases = (
+				50424D181F3E8B9300221254 /* Sources */,
+				50424D191F3E8B9300221254 /* Frameworks */,
+				50424D1A1F3E8B9300221254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式之禅--中介者模式";
+			productName = "设计模式之禅--中介者模式";
+			productReference = 50424D1C1F3E8B9300221254 /* 设计模式之禅--中介者模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50424D341F3E8B9300221254 /* 设计模式之禅--中介者模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50424D4C1F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式Tests" */;
+			buildPhases = (
+				50424D311F3E8B9300221254 /* Sources */,
+				50424D321F3E8B9300221254 /* Frameworks */,
+				50424D331F3E8B9300221254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50424D371F3E8B9300221254 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅--中介者模式Tests";
+			productName = "设计模式之禅--中介者模式Tests";
+			productReference = 50424D351F3E8B9300221254 /* 设计模式之禅--中介者模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50424D3F1F3E8B9300221254 /* 设计模式之禅--中介者模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50424D4F1F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式UITests" */;
+			buildPhases = (
+				50424D3C1F3E8B9300221254 /* Sources */,
+				50424D3D1F3E8B9300221254 /* Frameworks */,
+				50424D3E1F3E8B9300221254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50424D421F3E8B9300221254 /* PBXTargetDependency */,
+			);
+			name = "设计模式之禅--中介者模式UITests";
+			productName = "设计模式之禅--中介者模式UITests";
+			productReference = 50424D401F3E8B9300221254 /* 设计模式之禅--中介者模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50424D141F3E8B9300221254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王帅宇";
+				TargetAttributes = {
+					50424D1B1F3E8B9300221254 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+					};
+					50424D341F3E8B9300221254 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50424D1B1F3E8B9300221254;
+					};
+					50424D3F1F3E8B9300221254 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7D4JQY874;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50424D1B1F3E8B9300221254;
+					};
+				};
+			};
+			buildConfigurationList = 50424D171F3E8B9300221254 /* Build configuration list for PBXProject "设计模式之禅--中介者模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50424D131F3E8B9300221254;
+			productRefGroup = 50424D1D1F3E8B9300221254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50424D1B1F3E8B9300221254 /* 设计模式之禅--中介者模式 */,
+				50424D341F3E8B9300221254 /* 设计模式之禅--中介者模式Tests */,
+				50424D3F1F3E8B9300221254 /* 设计模式之禅--中介者模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50424D1A1F3E8B9300221254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50424D2F1F3E8B9300221254 /* LaunchScreen.storyboard in Resources */,
+				50424D2C1F3E8B9300221254 /* Assets.xcassets in Resources */,
+				50424D2A1F3E8B9300221254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D331F3E8B9300221254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D3E1F3E8B9300221254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50424D181F3E8B9300221254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50424D5D1F3EAC1600221254 /* AbstractMediator.m in Sources */,
+				50424D761F3ECEE900221254 /* Purchase.m in Sources */,
+				50424D6A1F3ECE2200221254 /* Stock.m in Sources */,
+				50424D731F3ECEDB00221254 /* Mediator.m in Sources */,
+				50424D271F3E8B9300221254 /* ViewController.m in Sources */,
+				50424D671F3EC63900221254 /* AbstractColleague.m in Sources */,
+				50424D241F3E8B9300221254 /* AppDelegate.m in Sources */,
+				50424D6D1F3ECE5700221254 /* Sale.m in Sources */,
+				50424D211F3E8B9300221254 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D311F3E8B9300221254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50424D3A1F3E8B9300221254 /* _____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50424D3C1F3E8B9300221254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50424D451F3E8B9300221254 /* _____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50424D371F3E8B9300221254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50424D1B1F3E8B9300221254 /* 设计模式之禅--中介者模式 */;
+			targetProxy = 50424D361F3E8B9300221254 /* PBXContainerItemProxy */;
+		};
+		50424D421F3E8B9300221254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50424D1B1F3E8B9300221254 /* 设计模式之禅--中介者模式 */;
+			targetProxy = 50424D411F3E8B9300221254 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50424D281F3E8B9300221254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50424D291F3E8B9300221254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50424D2D1F3E8B9300221254 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50424D2E1F3E8B9300221254 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50424D471F3E8B9300221254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50424D481F3E8B9300221254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50424D4A1F3E8B9300221254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50424D4B1F3E8B9300221254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50424D4D1F3E8B9300221254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅--中介者模式.app/设计模式之禅--中介者模式";
+			};
+			name = Debug;
+		};
+		50424D4E1F3E8B9300221254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设计模式之禅--中介者模式.app/设计模式之禅--中介者模式";
+			};
+			name = Release;
+		};
+		50424D501F3E8B9300221254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅--中介者模式";
+			};
+			name = Debug;
+		};
+		50424D511F3E8B9300221254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7D4JQY874;
+				INFOPLIST_FILE = "设计模式之禅--中介者模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.private.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设计模式之禅--中介者模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50424D171F3E8B9300221254 /* Build configuration list for PBXProject "设计模式之禅--中介者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50424D471F3E8B9300221254 /* Debug */,
+				50424D481F3E8B9300221254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50424D491F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50424D4A1F3E8B9300221254 /* Debug */,
+				50424D4B1F3E8B9300221254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50424D4C1F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50424D4D1F3E8B9300221254 /* Debug */,
+				50424D4E1F3E8B9300221254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50424D4F1F3E8B9300221254 /* Build configuration list for PBXNativeTarget "设计模式之禅--中介者模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50424D501F3E8B9300221254 /* Debug */,
+				50424D511F3E8B9300221254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50424D141F3E8B9300221254 /* Project object */;
+}

@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface AdvTemplate : NSObject
-@property (nonatomic, copy) NSString            *advSubject;/** 广告信名称*/
-@property (nonatomic, copy) NSString            *advContext;/** 广告信内容*/
+
+/** 广告信名称*/
+@property (nonatomic, copy) NSString            *advSubject;
+/** 广告信内容*/
+@property (nonatomic, copy) NSString            *advContext;
+
 @end

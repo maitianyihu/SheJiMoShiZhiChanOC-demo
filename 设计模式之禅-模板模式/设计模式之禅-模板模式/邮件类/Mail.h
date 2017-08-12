@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "AdvTemplate.h"
 @interface Mail : NSObject
-@property (nonatomic, copy) NSString            *receiver;/** 收件人*/
-@property (nonatomic, copy) NSString            *subject;/** 邮件名称*/
-@property (nonatomic, copy) NSString            *appellation;/** 称谓*/
-@property (nonatomic, copy) NSString            *contxt;/** 邮箱内容*/
-@property (nonatomic, copy) NSString            *tail;/** 邮件尾部，一般都是加上xxx版权所有等信息*/
+@property (nonatomic, copy) NSMutableArray *ind;
+@property (nonatomic, copy) NSString *receiver;/** 收件人*/
+@property (nonatomic, copy) NSMutableArray *subject;/** 邮件名称*/
+@property (nonatomic, copy) NSString            *appellation;/*!< 称谓*/
+@property (nonatomic, strong) NSString            *contxt;/*!<邮箱内容*/
+@property (nonatomic, strong) NSString            *tail;/*!<邮件尾部，一般都是加上xxx版权所有等信息*/
 - (instancetype)initWithAdvTemplate:(AdvTemplate *)advTemplate;
 
 @end
